@@ -2,6 +2,7 @@ package com.employeepayroll;
 import java.io.File;
 
 public class FileUtils {
+    //UC2 Delete file operation
     public static boolean deleteFiles(File contentsToDelete)
     {
         File[] allContents = contentsToDelete.listFiles();

@@ -13,6 +13,7 @@ public class NIOFileAPITest {
     private static String HOME = System.getProperty("user.home");
     private static String PLAY_WITH_NIO = "PlayGround";
 
+    //UC2 File Input and Output Operations
     @Test
     public void givenPathWhenCheckedThenConfirm() throws IOException {
         //check file exists
